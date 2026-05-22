@@ -1,7 +1,5 @@
 @use 'responsive' as *;
 
-$bg-color-1: red;
-
 body {
     @include responsive(
         (
