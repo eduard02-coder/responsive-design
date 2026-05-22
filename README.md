@@ -1,7 +1,7 @@
 # responsive-design
 A boilerplate for a responsive design website based on Sass. 
 
-Example of usage
+Example of usage, the same content of the mains.scss file
 ```
 body {
     @include responsive(
