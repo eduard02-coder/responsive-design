@@ -19,4 +19,4 @@ body {
     );
 }
 ```
-To get this working properly, inside your body tag on index.html you must have at least 3 block-type tags (div, section, aside, or e mixture thereof). No matter the inner blocks class names, they may not have a class.
+To get this working properly, inside your body tag on index.html you must have at least 3 block-type tags (div, section, aside, or a mixture thereof). No matter the inner blocks class names, they may not have a class.
