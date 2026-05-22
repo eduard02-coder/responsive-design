@@ -2,12 +2,16 @@
 
 body {
     @include responsive(
+
+        // the max width of each device
         (
             smartphone: 480px,
             tablet: 768px,
             desktop: 1279px,
             largedesktop: 1920px,
         ),
-        layout-shift
+
+        // the responsive design type: choose layout-shift, mosly-fluid or column-drop
+        layout-shift 
     );
 }
