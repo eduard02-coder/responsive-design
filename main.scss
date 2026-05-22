@@ -1,0 +1,15 @@
+@use 'responsive' as *;
+
+$bg-color-1: red;
+
+body {
+    @include responsive(
+        (
+            smartphone: 480px,
+            tablet: 768px,
+            desktop: 1279px,
+            largedesktop: 1920px,
+        ),
+        layout-shift
+    );
+}
