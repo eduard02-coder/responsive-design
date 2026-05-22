@@ -14,7 +14,7 @@ body {
             largedesktop: 1920px,
         ),
 
-        // the responsive design type: choose layout-shift, mosly-fluid or column-drop
+        // the responsive design type: choose layout-shift, mostly-fluid or column-drop
         layout-shift 
     );
 }
